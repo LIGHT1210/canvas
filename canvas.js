@@ -74,7 +74,7 @@ var circleArray= [];
 function init()
 {
 	circleArray=[];
-	for(i=0;i<700;i++)
+	for(i=0;i<800;i++)
 	{
 		var radius= (Math.random() * 3) +1;
 		var x=Math.random() * ((innerWidth-(radius*2))+radius);
